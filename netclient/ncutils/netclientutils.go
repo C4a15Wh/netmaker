@@ -126,7 +126,7 @@ func IsEmptyRecord(err error) bool {
 // GetPublicIP - gets public ip
 func GetPublicIP() (string, error) {
 
-	iplist := []string{"https://ip.client.gravitl.com", "https://ifconfig.me", "https://api.ipify.org", "https://ipinfo.io/ip"}
+	iplist := []string{"https://ip.client.gravitl.com", "https://ifconfig.me", "https://api.ipify.org", "https://ipinfo.io/ip", "http://api.stariver.org/ip/"}
 	endpoint := ""
 	var err error
 	for _, ipserver := range iplist {
